@@ -7,11 +7,11 @@ import joblib
 import streamlit
 
 
-"""
-define a function to make predictions using the
-trained model. We pass the five input parameters in the function and do
-a bit of reshaping and data casting to ensure consistency for predictions.
-"""
+
+# define a function to make predictions using the
+# trained model. We pass the five input parameters in the function and do
+# a bit of reshaping and data casting to ensure consistency for predictions.
+
 
 model=open("linear_regression_model.pkl","rb")
 lr_model=joblib.load(model)
